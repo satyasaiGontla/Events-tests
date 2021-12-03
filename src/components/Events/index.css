@@ -1,0 +1,43 @@
+.events-bg-container {
+  min-height: 100vh;
+  display: flex;
+}
+
+.events-section {
+  padding: 30px;
+  background-color: #3a4b63;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  align-self: flex-start;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-left: 20px;
+}
+
+.status-section {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.default-status {
+  align-self: flex-start;
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  padding: 20px;
+  font-size: 34px;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}

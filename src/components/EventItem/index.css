@@ -1,0 +1,42 @@
+.event-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+
+.event-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.active-border {
+  border: 2px solid #2dd4bf;
+}
+
+.festival-name {
+  margin: 5px 0px 0px 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  align-self: flex-start;
+  font-size: 34px;
+}
+
+.location {
+  margin: 5px 0px 0px 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.event-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+}
